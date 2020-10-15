@@ -1,0 +1,23 @@
+{
+  "name": "coffee-machine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "coffee-machine-maker.js",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Liam-McCormack/coffee-machine.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Liam-McCormack/coffee-machine/issues"
+  },
+  "homepage": "https://github.com/Liam-McCormack/coffee-machine#readme",
+  "devDependencies": {
+    "jest": "^26.5.3"
+  }
+}
