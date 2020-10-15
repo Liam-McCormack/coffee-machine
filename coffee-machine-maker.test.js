@@ -50,11 +50,13 @@ describe("makeCoffeeMachine()", () => {
             const testFunc = makeCoffeeMachine('Java Lava');
             testFunc.addWater();
             expect(testFunc.makeCoffee('Espresso')).toBe(`An Espresso with Java Lava`);
+            expect(testFunc.waterLevel).toBe(0);
         })
         test("makeCoffee() will return 'Americano' if invoked with no string arguments", () => {
             const testFunc = makeCoffeeMachine('Java Lava');
             testFunc.addWater();
             expect(testFunc.makeCoffee()).toBe(`An Americano with Java Lava`);
+            expect(testFunc.waterLevel).toBe(0);
         })
     });
 })

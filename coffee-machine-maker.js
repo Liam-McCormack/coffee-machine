@@ -6,7 +6,9 @@ function addWater() {
 
 function makeCoffee(coffeeType) {
     if (this.waterLevel === 0) return 'Please add water';
-    else if (coffeeType === 'Espresso') {
+
+    this.waterLevel--;
+    if (coffeeType === 'Espresso') {
         return `An ${coffeeType} with ${this.beans}`;
     } else {
         return `An Americano with ${this.beans}`;
